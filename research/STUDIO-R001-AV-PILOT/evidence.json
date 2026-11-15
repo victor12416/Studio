@@ -1,0 +1,679 @@
+{
+  "status": "INCOMPLETE",
+  "task_id": "STUDIO-R001-AV-PILOT",
+  "original_task_id": "STUDIO-R001",
+  "deduplication_marker": "STUDIO-AUTO-RESEARCH:victor12416/Studio#4:c5fa1a824bb0e36ca5f784ae217373315fd73b18",
+  "assignment_pr": "https://github.com/victor12416/Studio/pull/4",
+  "assignment_head_sha": "c5fa1a824bb0e36ca5f784ae217373315fd73b18",
+  "original_report_pr": "https://github.com/victor12416/Studio/pull/2",
+  "rejected_review": "https://github.com/victor12416/Studio/pull/2#issuecomment-6875643372",
+  "timezone": "UTC",
+  "new_requests_submitted": 3,
+  "new_usable_completed_analyses": 2,
+  "reused_completed_analyses": 2,
+  "excluded_new_completed_analyses": 1,
+  "independently_verified_three_component_shorts": 0,
+  "direct_researcher_moving_video_seconds": 0,
+  "direct_researcher_audio_seconds": 0,
+  "caption_synchronization_audits": 0,
+  "credit_observations": [
+    {
+      "checkpoint": "balanceInitial4",
+      "observed_at_utc": "2026-11-15 04:01:42 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterSubmit14",
+      "observed_at_utc": "2026-11-15 04:02:28 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterPoll14",
+      "observed_at_utc": "2026-11-15 04:02:50 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterJob14",
+      "observed_at_utc": "2026-11-15 04:03:39 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterSubmit24",
+      "observed_at_utc": "2026-11-15 04:04:04 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterJob24",
+      "observed_at_utc": "2026-11-15 04:05:15 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterSubmit34",
+      "observed_at_utc": "2026-11-15 04:05:30 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    },
+    {
+      "checkpoint": "balanceAfterPoll34",
+      "observed_at_utc": "2026-11-15 04:06:08 UTC",
+      "credits": 10,
+      "plan": "free",
+      "trial_activated_by_this_run": false
+    }
+  ],
+  "cost_conclusion": "10 credits before and after; zero observed credit deduction in this bounded session, not a permanent free-pricing entitlement or billing audit",
+  "provider_method": {
+    "create_tool": "Higgsfield video_analysis_create",
+    "input": "youtube_url only",
+    "status_tool": "video_analysis_status",
+    "raw_audio_or_frames_delivered": false,
+    "raw_full_transcript_republished": false,
+    "scene_labels_not_adopted_as_story_structure": true,
+    "independent_accuracy_validation": false
+  },
+  "usable_analyses": [
+    {
+      "row": "N1",
+      "video_url": "https://www.youtube.com/watch?v=Jjt1fVYBkmQ",
+      "job_id": "08a74d24-442b-46ba-bd47-e9522ed0ee2b",
+      "job_origin": "reused",
+      "terminal_status": "completed",
+      "fail_reason": null,
+      "status_retrieved_at_utc": "2026-11-15 04:02:03 UTC",
+      "evidence_class": "external AI-generated scene summaries; not direct researcher audiovisual observation",
+      "category": "parent-child conflict/commentary",
+      "category_basis": "researcher interpretation of provider audio/visual text; tentative",
+      "player_metadata_duration_seconds": 24,
+      "scene_intervals": [
+        {
+          "start": "0:00",
+          "end": "0:03",
+          "visual_paraphrase": "Floating-block parkour.",
+          "audio_or_story_paraphrase": "A parent deletes a child's long-built game world."
+        },
+        {
+          "start": "0:03",
+          "end": "0:07",
+          "visual_paraphrase": "Mushroom platforms.",
+          "audio_or_story_paraphrase": "The commentary initially minimizes the loss."
+        },
+        {
+          "start": "0:07",
+          "end": "0:14",
+          "visual_paraphrase": "Wooden and brick platforms.",
+          "audio_or_story_paraphrase": "The speaker condemns the destruction."
+        },
+        {
+          "start": "0:14",
+          "end": "0:24",
+          "visual_paraphrase": "Elevated obstacle course.",
+          "audio_or_story_paraphrase": "The speaker urges empathy and repairing the relationship."
+        }
+      ],
+      "caption_sync": "UNKNOWN",
+      "raw_frames_returned": false,
+      "raw_audio_returned": false,
+      "raw_media_url_returned": false,
+      "independently_verified_exact_format": false
+    },
+    {
+      "row": "N3",
+      "video_url": "https://www.youtube.com/watch?v=jk7ehjJXXQw",
+      "job_id": "4076be8c-0c5c-48ce-934f-7df0e3be7e95",
+      "job_origin": "reused",
+      "terminal_status": "completed",
+      "fail_reason": null,
+      "status_retrieved_at_utc": "2026-11-15 04:02:03 UTC",
+      "evidence_class": "external AI-generated scene summaries; not direct researcher audiovisual observation",
+      "category": "family betrayal/revenge",
+      "category_basis": "researcher interpretation of provider audio/visual text; tentative",
+      "player_metadata_duration_seconds": 80,
+      "scene_intervals": [
+        {
+          "start": "0:00",
+          "end": "0:05",
+          "visual_paraphrase": "Snowy ledges and wood paths.",
+          "audio_or_story_paraphrase": "Family betrayal and revenge premise."
+        },
+        {
+          "start": "0:05",
+          "end": "0:15",
+          "visual_paraphrase": "Garden and water platforms.",
+          "audio_or_story_paraphrase": "A sibling is favored for company leadership."
+        },
+        {
+          "start": "0:15",
+          "end": "0:30",
+          "visual_paraphrase": "Architecture and canyon passages.",
+          "audio_or_story_paraphrase": "The narrator plans a business response."
+        },
+        {
+          "start": "0:30",
+          "end": "0:42",
+          "visual_paraphrase": "Water passages and brick building.",
+          "audio_or_story_paraphrase": "Valuable contracts and personnel are moved."
+        },
+        {
+          "start": "0:42",
+          "end": "0:57",
+          "visual_paraphrase": "Open ground and crystal cave.",
+          "audio_or_story_paraphrase": "The narrator leaves to establish a competitor."
+        },
+        {
+          "start": "0:57",
+          "end": "1:21",
+          "visual_paraphrase": "Purple crystal ledges.",
+          "audio_or_story_paraphrase": "The new firm prospers while the original struggles."
+        }
+      ],
+      "caption_sync": "UNKNOWN",
+      "raw_frames_returned": false,
+      "raw_audio_returned": false,
+      "raw_media_url_returned": false,
+      "independently_verified_exact_format": false
+    },
+    {
+      "row": "N4",
+      "video_url": "https://www.youtube.com/watch?v=in3cNLZvyF8",
+      "job_id": "03df2384-8d9e-4f6f-8dd5-9245b506bc76",
+      "job_origin": "new",
+      "terminal_status": "completed",
+      "fail_reason": null,
+      "status_retrieved_at_utc": "2026-11-15 04:05:14 UTC",
+      "evidence_class": "external AI-generated scene summaries; not direct researcher audiovisual observation",
+      "category": "family/texting comedy/unexpected events",
+      "category_basis": "researcher interpretation of provider audio/visual text; tentative",
+      "player_metadata_duration_seconds": 74,
+      "scene_intervals": [
+        {
+          "start": "0:00",
+          "end": "0:02",
+          "visual_paraphrase": "Desert-block corridors; chat overlay in upper third.",
+          "audio_or_story_paraphrase": "A father invites his son to play GTA."
+        },
+        {
+          "start": "0:02",
+          "end": "0:08",
+          "visual_paraphrase": "Ice platforms; chat includes a PC image.",
+          "audio_or_story_paraphrase": "The son doubts the father's computer."
+        },
+        {
+          "start": "0:08",
+          "end": "0:14",
+          "visual_paraphrase": "Wooden platforms and windows.",
+          "audio_or_story_paraphrase": "The father explains his wish to bond."
+        },
+        {
+          "start": "0:14",
+          "end": "0:21",
+          "visual_paraphrase": "Grass platforms and small fires.",
+          "audio_or_story_paraphrase": "The son discourages the game choice."
+        },
+        {
+          "start": "0:21",
+          "end": "0:26",
+          "visual_paraphrase": "Stone shaft and narrow ledges.",
+          "audio_or_story_paraphrase": "The conversation turns to game businesses."
+        },
+        {
+          "start": "0:26",
+          "end": "0:35",
+          "visual_paraphrase": "Lava cave and pillars.",
+          "audio_or_story_paraphrase": "An acronym misunderstanding escalates the joke."
+        },
+        {
+          "start": "0:35",
+          "end": "0:46",
+          "visual_paraphrase": "Red block corridors and lava.",
+          "audio_or_story_paraphrase": "The son invokes online risks to deter him."
+        },
+        {
+          "start": "0:46",
+          "end": "1:03",
+          "visual_paraphrase": "Colorful forest path.",
+          "audio_or_story_paraphrase": "An adult-themed game moment prompts another excuse."
+        },
+        {
+          "start": "1:03",
+          "end": "1:14",
+          "visual_paraphrase": "Blue-purple crystals; small inset clip.",
+          "audio_or_story_paraphrase": "The father's enthusiasm supplies a comic payoff."
+        }
+      ],
+      "caption_sync": "UNKNOWN",
+      "raw_frames_returned": false,
+      "raw_audio_returned": false,
+      "raw_media_url_returned": false,
+      "independently_verified_exact_format": false
+    },
+    {
+      "row": "N2",
+      "video_url": "https://www.youtube.com/watch?v=363mhSB6Uac",
+      "job_id": "285cce19-da4a-4b04-b70d-795566304bc6",
+      "job_origin": "new",
+      "terminal_status": "completed",
+      "fail_reason": null,
+      "status_retrieved_at_utc": "2026-11-15 04:06:07 UTC",
+      "evidence_class": "external AI-generated scene summaries; not direct researcher audiovisual observation",
+      "category": "horror/mystery",
+      "category_basis": "researcher interpretation of provider audio/visual text; tentative",
+      "player_metadata_duration_seconds": 172,
+      "scene_intervals": [
+        {
+          "start": "0:00",
+          "end": "0:06",
+          "visual_paraphrase": "Leafy block garden.",
+          "audio_or_story_paraphrase": "Police horror premise and emergency call."
+        },
+        {
+          "start": "0:06",
+          "end": "0:15",
+          "visual_paraphrase": "Floating terrain and ocean.",
+          "audio_or_story_paraphrase": "Officers approach the house."
+        },
+        {
+          "start": "0:15",
+          "end": "0:25",
+          "visual_paraphrase": "Lava and rocky passages.",
+          "audio_or_story_paraphrase": "They force entry."
+        },
+        {
+          "start": "0:25",
+          "end": "0:35",
+          "visual_paraphrase": "Snow, ice and cave areas.",
+          "audio_or_story_paraphrase": "They investigate crying."
+        },
+        {
+          "start": "0:35",
+          "end": "0:45",
+          "visual_paraphrase": "Red passages and lava.",
+          "audio_or_story_paraphrase": "The voice abruptly stops and resumes."
+        },
+        {
+          "start": "0:45",
+          "end": "0:58",
+          "visual_paraphrase": "Purple structures and ore cave.",
+          "audio_or_story_paraphrase": "A door shuts despite the apparent search."
+        },
+        {
+          "start": "0:58",
+          "end": "1:13",
+          "visual_paraphrase": "Desert then garden.",
+          "audio_or_story_paraphrase": "The officers become increasingly uneasy."
+        },
+        {
+          "start": "1:13",
+          "end": "1:26",
+          "visual_paraphrase": "Purple structures and gaps.",
+          "audio_or_story_paraphrase": "The voice unexpectedly knows an officer's name."
+        },
+        {
+          "start": "1:26",
+          "end": "1:38",
+          "visual_paraphrase": "Wood corridors and greenery.",
+          "audio_or_story_paraphrase": "An officer threatens to enter the room."
+        },
+        {
+          "start": "1:38",
+          "end": "1:52",
+          "visual_paraphrase": "Garden, stone corridors and lava.",
+          "audio_or_story_paraphrase": "The officers hesitate."
+        },
+        {
+          "start": "1:52",
+          "end": "2:04",
+          "visual_paraphrase": "Mushrooms and colored trees.",
+          "audio_or_story_paraphrase": "The voice threatens a family."
+        },
+        {
+          "start": "2:04",
+          "end": "2:16",
+          "visual_paraphrase": "Previously described game environments.",
+          "audio_or_story_paraphrase": "The voice changes and an officer reacts fearfully."
+        }
+      ],
+      "caption_sync": "UNKNOWN",
+      "raw_frames_returned": false,
+      "raw_audio_returned": false,
+      "raw_media_url_returned": false,
+      "independently_verified_exact_format": false
+    }
+  ],
+  "excluded_request": {
+    "row": "N6",
+    "video_url": "https://www.youtube.com/watch?v=LXyaN_MTMWk",
+    "job_id": "0fd0dcbd-09f0-491e-a54d-c449e6977fc9",
+    "submitted_at_utc": "2026-11-15 04:02:12 UTC",
+    "terminal_status": "completed",
+    "terminal_status_retrieved_at_utc": "2026-11-15 04:03:38 UTC",
+    "fail_reason": null,
+    "exclusion_reason": "Primary signed-out YouTube page reports Private video; request was mistakenly submitted before linked owner privacy notes were read and access was preflighted.",
+    "primary_access_observed_at_utc": "2026-11-15T04:03:29.400Z",
+    "content_summaries": null,
+    "content_inspected_for_findings": false,
+    "no_login_or_access_bypass_attempted": true,
+    "cancel_analysis_capability_available": false
+  },
+  "duration_audit": [
+    {
+      "row": "N1",
+      "player_metadata_seconds": 24,
+      "provider_endpoint_seconds": 24,
+      "endpoint_difference_seconds": 0,
+      "frame_accuracy_verified": false
+    },
+    {
+      "row": "N3",
+      "player_metadata_seconds": 80,
+      "provider_endpoint_seconds": 81,
+      "endpoint_difference_seconds": 1,
+      "frame_accuracy_verified": false
+    },
+    {
+      "row": "N4",
+      "player_metadata_seconds": 74,
+      "provider_endpoint_seconds": 74,
+      "endpoint_difference_seconds": 0,
+      "frame_accuracy_verified": false
+    },
+    {
+      "row": "N2",
+      "player_metadata_seconds": 172,
+      "provider_endpoint_seconds": 136,
+      "unaccounted_seconds": 36,
+      "actual_ending_verified": false,
+      "frame_accuracy_verified": false
+    }
+  ],
+  "historical_platform_metadata": [
+    {
+      "row": "N1",
+      "video_id": "Jjt1fVYBkmQ",
+      "video_url": "https://www.youtube.com/watch?v=Jjt1fVYBkmQ",
+      "channel_name": "Amazing Stories",
+      "channel_url": "https://www.youtube.com/channel/UCiwSqg2KtdMk1Fw1qG_kBdg",
+      "channel_handle": "@amazinglul",
+      "channel_id": "UCiwSqg2KtdMk1Fw1qG_kBdg",
+      "published_date_displayed": "2026-04-13",
+      "player_duration_seconds": 24,
+      "views_displayed": 4958238,
+      "likes_displayed": 188595,
+      "observed_at_utc": "2026-11-14T10:22:07.301Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    },
+    {
+      "row": "N2",
+      "video_id": "363mhSB6Uac",
+      "video_url": "https://www.youtube.com/watch?v=363mhSB6Uac",
+      "channel_name": "MegaMish",
+      "channel_url": "https://www.youtube.com/channel/UCUux2hvyL_awn7gsMIe4NNA",
+      "channel_handle": "@MegaMish-q1m9c",
+      "channel_id": "UCUux2hvyL_awn7gsMIe4NNA",
+      "published_date_displayed": "2025-07-21",
+      "player_duration_seconds": 172,
+      "views_displayed": 11722,
+      "likes_displayed": 240,
+      "observed_at_utc": "2026-11-14T10:22:11.570Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    },
+    {
+      "row": "N3",
+      "video_id": "jk7ehjJXXQw",
+      "video_url": "https://www.youtube.com/watch?v=jk7ehjJXXQw",
+      "channel_name": "omni gamer cr",
+      "channel_url": "https://www.youtube.com/channel/UCZE6Ac9Jgo821_3tv4GoV2g",
+      "channel_handle": "@omnigameytl9x",
+      "channel_id": "UCZE6Ac9Jgo821_3tv4GoV2g",
+      "published_date_displayed": "2026-11-11",
+      "player_duration_seconds": 80,
+      "views_displayed": 289,
+      "likes_displayed": 3,
+      "observed_at_utc": "2026-11-14T10:22:15.717Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    },
+    {
+      "row": "N4",
+      "video_id": "in3cNLZvyF8",
+      "video_url": "https://www.youtube.com/watch?v=in3cNLZvyF8",
+      "channel_name": "Scroll Tales",
+      "channel_url": "https://www.youtube.com/channel/UCfx1OJMoQ7OOqU2htixvikw",
+      "channel_handle": "@ScrollTalesHQ",
+      "channel_id": "UCfx1OJMoQ7OOqU2htixvikw",
+      "published_date_displayed": "2025-04-06",
+      "player_duration_seconds": 74,
+      "views_displayed": 41716,
+      "likes_displayed": 631,
+      "observed_at_utc": "2026-11-14T10:22:19.924Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    },
+    {
+      "row": "N5",
+      "video_id": "hhIHKgYd5wo",
+      "video_url": "https://www.youtube.com/watch?v=hhIHKgYd5wo",
+      "channel_name": "ParkourTales",
+      "channel_url": "https://www.youtube.com/channel/UChH2CY7pgyTFpics29lzW1A",
+      "channel_handle": "@ParkourTales10",
+      "channel_id": "UChH2CY7pgyTFpics29lzW1A",
+      "published_date_displayed": "2026-08-02",
+      "player_duration_seconds": 123,
+      "views_displayed": 308,
+      "likes_displayed": 8,
+      "observed_at_utc": "2026-11-14T10:22:23.603Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    },
+    {
+      "row": "N6",
+      "video_id": "LXyaN_MTMWk",
+      "video_url": "https://www.youtube.com/watch?v=LXyaN_MTMWk",
+      "channel_name": "@NightDeskHorror",
+      "channel_url": "https://www.youtube.com/channel/UCC-cIk36AMY1cSUXoHKty2Q",
+      "channel_handle": "@TheNightDeskHorror",
+      "channel_id": "UCC-cIk36AMY1cSUXoHKty2Q",
+      "published_date_displayed": "2026-10-15",
+      "player_duration_seconds": 67,
+      "views_displayed": 1024,
+      "likes_displayed": 16,
+      "observed_at_utc": "2026-11-14T10:22:27.162Z",
+      "observation_interval_utc": null,
+      "prior_report_views": null,
+      "prior_capture_time": "unknown; retained historical claim, not authenticated",
+      "source_class": "primary browser DOM metadata; not audiovisual inspection",
+      "shorts_evidence": "YouTube search Shorts shelf; N1 also loaded in actual Shorts player",
+      "full_format_verified": false,
+      "audio_inspected_seconds": 0,
+      "moving_video_inspected_seconds": 0,
+      "caption_sync": "unknown",
+      "hook": "unknown",
+      "story_structure": "unknown",
+      "pacing": "unknown",
+      "rights": "unknown; no Studio reuse permission established",
+      "player_limitation": "0:00; readyState 0 where tested; duration is page/player-reported metadata",
+      "source_registry": "https://github.com/victor12416/Studio/blob/c51b2c66696cc44c0841871a2d4e3152da718345/research/STUDIO-R001-REV1/evidence.json",
+      "snapshot_treatment": "historical unchanged; not refreshed unless separately listed below"
+    }
+  ],
+  "new_primary_platform_observations": [
+    {
+      "row": "N4",
+      "url": "https://www.youtube.com/watch?v=in3cNLZvyF8",
+      "observed_at_utc": "2026-11-15T04:03:49.991Z",
+      "published_date_displayed": "2025-04-06",
+      "views": 41804,
+      "likes": 633,
+      "subscribers_displayed": "84",
+      "player_duration_seconds": 74,
+      "currentTime": 0,
+      "readyState": 0,
+      "caption_synchronization": "UNKNOWN",
+      "primary_watch_page_access": "No private/access wall observed"
+    },
+    {
+      "row": "N5",
+      "url": "https://www.youtube.com/watch?v=hhIHKgYd5wo",
+      "observed_at_utc": "2026-11-15T04:04:26.197Z",
+      "published_date_displayed": "2026-08-02",
+      "views": 308,
+      "likes": 8,
+      "subscribers_displayed": "14",
+      "player_duration_seconds": 123,
+      "provider_analysis_requested": false
+    },
+    {
+      "row": "N2",
+      "url": "https://www.youtube.com/watch?v=363mhSB6Uac",
+      "observed_at_utc": "2026-11-15T04:04:46.968Z",
+      "published_date_displayed": "2025-07-21",
+      "views": 11764,
+      "likes": 242,
+      "subscribers_displayed": "36",
+      "player_duration_seconds": 172,
+      "primary_watch_page_access": "No private/access wall observed"
+    },
+    {
+      "row": "N3",
+      "url": "https://www.youtube.com/shorts/jk7ehjJXXQw",
+      "observed_at_utc": "2026-11-15T04:05:04.192Z",
+      "method": "actual YouTube Shorts UI matching title and channel handle",
+      "handle": "@omnigameytl9x",
+      "currentTime": 0,
+      "readyState": 0,
+      "player_duration_seconds": 80,
+      "caption_synchronization": "UNKNOWN"
+    },
+    {
+      "row": "N3",
+      "url": "https://www.youtube.com/watch?v=jk7ehjJXXQw",
+      "observed_at_utc": "2026-11-15T04:05:56.739Z",
+      "published_date_displayed": "2026-11-11",
+      "views": 295,
+      "likes": 3,
+      "subscribers_displayed": "1.63K",
+      "player_duration_seconds": 80,
+      "method": "Expanded page metadata; attempted Show transcript; initial loading, no usable timed lines observed"
+    }
+  ],
+  "owner_testimony": {
+    "source": "https://github.com/victor12416/Studio/blob/d0d9894f6ec6925382f5d590f1d0175e1c4dc8da/research/STUDIO-R001-REV1/owner-inspection-N3-followup-2026-11-14.md",
+    "row": "N3",
+    "reported_format_match": true,
+    "reported_caption_speech_match_at_checked_points": true,
+    "reproducible_second_level_timestamps": false,
+    "raw_evidence_supplied": false,
+    "independently_verified": false
+  },
+  "web_access_log": {
+    "primary_urls_attempted": [
+      "https://www.youtube.com/watch?v=LXyaN_MTMWk",
+      "https://www.youtube.com/watch?v=in3cNLZvyF8",
+      "https://www.youtube.com/watch?v=hhIHKgYd5wo"
+    ],
+    "text_fetch_result": "DisabledError/fetch failure",
+    "queries": [
+      "\"jk7ehjJXXQw\" captions transcript",
+      "\"LXyaN_MTMWk\"",
+      "\"in3cNLZvyF8\""
+    ],
+    "search_result": "No usable indexed results; no actual transcript obtained"
+  },
+  "remaining_gaps": [
+    "Direct caption-versus-speech checks with exact timestamps and coverage",
+    "N2 36-second endpoint gap; N3 one-second conflict",
+    "Fresh video-native Shorts classification for N2/N4",
+    "Multiple independently verified videos per relevant current competitor",
+    "Recent representative sample and original conditional 30-video target",
+    "Rights provenance and historical capture gaps"
+  ],
+  "handoff_recipient": "Director",
+  "review_pr_created": false,
+  "independent_approval_claimed": false,
+  "strategy_or_production_started": false,
+  "automation_configuration_changed": false
+}
