@@ -1,0 +1,76 @@
+name: "Studio TEST ONLY - Render Video Prototype"
+on:
+  workflow_dispatch:
+    inputs:
+      gameplay_path:
+        description: "Optional path in this repo to OWNED/LICENSED Minecraft gameplay MP4. Blank = clearly labelled placeholder (NOT Minecraft)."
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Render private-to-workflow prototype artifact (no publication)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GAMEPLAY_PATH: ${{ inputs.gameplay_path }}
+    steps:
+      - name: Checkout approved fixture files
+        uses: actions/checkout@v4
+
+      - name: Install offline narration and render dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+
+      - name: Verify supplied gameplay path is within permitted assets folder
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "$GAMEPLAY_PATH" ]]; then
+            case "$GAMEPLAY_PATH" in
+              production/assets/*.mp4) ;;
+              *) echo "::error::Gameplay must be production/assets/<filename>.mp4"; exit 1 ;;
+            esac
+            [[ -f "$GAMEPLAY_PATH" ]] || { echo "::error::Provided gameplay file does not exist"; exit 1; }
+          fi
+
+      - name: Produce vertical video and measured-audio report
+        shell: bash
+        run: |
+          set -euo pipefail
+          cmd=(python3 production/render_short.py --fixture production/fixtures/missing_medal.json --output output/missing_medal_TEST_ONLY.mp4)
+          if [[ -n "$GAMEPLAY_PATH" ]]; then cmd+=(--gameplay "$GAMEPLAY_PATH"); fi
+          "${cmd[@]}"
+
+      - name: Verify video dimensions, codecs and nonempty size
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s output/missing_medal_TEST_ONLY.mp4
+          test -s output/missing_medal_TEST_ONLY.json
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of json output/missing_medal_TEST_ONLY.mp4
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of json output/missing_medal_TEST_ONLY.mp4
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("output/missing_medal_TEST_ONLY.json").read_text())
+          assert d["test_only"] and d["caption_cues"]==32 and d["narration_words"]==133
+          assert d["frame_size"]==[1080,1920]
+          assert d["measured_synthesized_audio_seconds"]>0
+          print("Prototype validated. No uploads to YouTube/TikTok.")
+          PY
+
+      - name: Save MP4 plus quality report for human inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: studio-missing-medal-TEST_ONLY
+          path: |
+            output/missing_medal_TEST_ONLY.mp4
+            output/missing_medal_TEST_ONLY.json
+          retention-days: 7
+          if-no-files-found: error
